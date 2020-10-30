@@ -1,13 +1,15 @@
-package com.example.learningandroidapp;
-
-import androidx.appcompat.app.AppCompatActivity;
+package com.example.learningandroidapp.view;
 
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
-import android.widget.Toolbar;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+import com.example.learningandroidapp.R;
+import com.example.learningandroidapp.model.CricketerModel;
 
 public class CricketDetailActivity extends AppCompatActivity {
     private View view;

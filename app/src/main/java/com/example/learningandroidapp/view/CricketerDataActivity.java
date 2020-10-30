@@ -1,4 +1,4 @@
-package com.example.learningandroidapp;
+package com.example.learningandroidapp.view;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
@@ -6,7 +6,11 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.widget.Toast;
+
+import com.example.learningandroidapp.adapter.CricketerAdapter;
+import com.example.learningandroidapp.model.CricketerModel;
+import com.example.learningandroidapp.R;
+import com.example.learningandroidapp.listener.CricketData;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -44,7 +48,7 @@ private RecyclerView recyclerView;
 
     @Override
     public void onClick(CricketerModel cricketerModel) {
-       Intent intent=new Intent(CricketerDataActivity.this,CricketDetailActivity.class);
+       Intent intent=new Intent(CricketerDataActivity.this, CricketDetailActivity.class);
        intent.putExtra("details",cricketerModel);
        startActivity(intent);
     }

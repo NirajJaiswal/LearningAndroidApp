@@ -1,6 +1,4 @@
-package com.example.learningandroidapp;
-
-import androidx.appcompat.app.AppCompatActivity;
+package com.example.learningandroidapp.view;
 
 import android.content.Intent;
 import android.net.Uri;
@@ -8,6 +6,10 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+import com.example.learningandroidapp.R;
 
 public class MainActivity extends AppCompatActivity {
 private Button mBtnMessage;
@@ -32,7 +34,7 @@ private Button mBtnRecycler;
         mBtnRecycler.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent=new Intent(MainActivity.this,CricketerDataActivity.class);
+                Intent intent=new Intent(MainActivity.this, CricketerDataActivity.class);
                 startActivity(intent);
             }
         });

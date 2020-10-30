@@ -1,8 +1,4 @@
-package com.example.learningandroidapp;
-
-import android.widget.EditText;
-import android.widget.ImageView;
-import android.widget.TextView;
+package com.example.learningandroidapp.model;
 
 import java.io.Serializable;
 

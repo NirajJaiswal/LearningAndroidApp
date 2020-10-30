@@ -1,4 +1,4 @@
-package com.example.learningandroidapp;
+package com.example.learningandroidapp.adapter;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -7,6 +7,10 @@ import android.view.ViewGroup;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
+
+import com.example.learningandroidapp.R;
+import com.example.learningandroidapp.listener.CricketData;
+import com.example.learningandroidapp.model.CricketerModel;
 
 import java.util.List;
 

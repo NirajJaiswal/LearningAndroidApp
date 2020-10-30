@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".CricketDetailActivity">
+    tools:context=".view.CricketDetailActivity">
 
 
     <ImageView
@@ -32,7 +32,7 @@
         android:id="@+id/cricket_name"
         android:layout_below="@id/cricketer_image"
         android:layout_toEndOf="@id/cricketer_name"
-       tools:text="shami"
+        tools:text="shami"
         android:layout_marginTop="10dp"
         android:layout_marginStart="20dp"
         android:textSize="25sp"/>
