@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"
+        app:cardCornerRadius="20dp"
+        >
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+       <com.mikhaellopez.circularimageview.CircularImageView
+           android:layout_height="100dp"
+           android:layout_width="100dp"
+           android:id="@+id/cricket_iv"
+           android:src="@drawable/shami"
+
+           />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/cricket_tv_name"
+            android:text="@string/names"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"
+            android:layout_toEndOf="@+id/cricket_iv"
+            android:textSize="30sp"
+            />
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/cricket_et_name"
+    android:text="@string/nameS"
+    android:layout_toEndOf="@+id/cricket_tv_name"
+    android:textSize="15sp"
+    android:layout_marginTop="10dp"
+
+    android:layout_marginStart="10dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/age"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:id="@+id/cricket_tv_age"
+        android:layout_toEndOf="@id/cricket_iv"
+        android:layout_below="@id/cricket_tv_name"
+        android:layout_marginStart="10dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cricket_et_age"
+        android:text="@string/ages"
+        android:textSize="15sp"
+android:layout_marginTop="20dp"
+        android:layout_toEndOf="@id/cricket_tv_age"
+        android:layout_below="@id/cricket_et_name"
+        android:layout_marginStart="10dp"/>
+
+
+
+</RelativeLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

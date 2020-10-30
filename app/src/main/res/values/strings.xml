@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">LearningAndroidApp</string>
+    <string name="message">Message</string>
+    <string name="url">URL</string>
+    <string name="recycler">Recycler</string>
+    <string name="click_url">click url</string>
+
+    <string name="names">Name:</string>
+
+    <string name="nameS">name</string>
+    <string name="age">Age:</string>
+    <string name="ages">age</string>
+    <string name="name">Name:</string>
+    <string name="ageS">Age</string>
+</resources>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+
+    >
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/message"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="50dp"
+       android:id="@+id/btn_message"
+        android:background="@drawable/button"
+        android:textColor="@android:color/black"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/click_url"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="50dp"
+        android:id="@+id/btn_url"
+        android:background="@drawable/button"
+        android:textColor="@android:color/black"
+
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/recycler"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="50dp"
+        android:id="@+id/btn_recycler"
+        android:background="@drawable/button"
+        android:textColor="@android:color/black"
+
+        />
+
+
+
+</LinearLayout>
